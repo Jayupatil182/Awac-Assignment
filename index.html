@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <form id="loginForm" class="login-form">
+            <h2>Login</h2>
+
+            <!-- Email Field -->
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+                <small class="error-message" id="emailError"></small>
+            </div>
+
+            <!-- Password Field -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <small class="error-message" id="passwordError"></small>
+            </div>
+
+            <!-- Remember Me Checkbox -->
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" id="rememberMe" name="rememberMe">
+                    Remember Me
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Login</button>
+
+            <!-- Loading Spinner (hidden by default) -->
+            <div id="loadingSpinner" class="spinner" style="display: none;"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
