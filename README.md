@@ -12,7 +12,7 @@ This is a simple, responsive login form built using HTML, CSS, and JavaScript. T
 
 ## Demo
 
-[Live Demo](https://Jayupatil182.github.io/Awac-Assignment.git/)
+[Live Demo](https://jayupatil182.github.io/Awac-Assignment/)
 
 ## How to Run the Project Locally
 
